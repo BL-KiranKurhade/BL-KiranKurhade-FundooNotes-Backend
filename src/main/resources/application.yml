@@ -25,10 +25,7 @@ spring:
       url: ${REDIS_URL}
 
   rabbitmq:
-    host: ${RABBITMQ_HOST}
-    port: ${RABBITMQ_PORT}
-    username: ${RABBITMQ_USERNAME}
-    password: ${RABBITMQ_PASSWORD}
+    addresses: ${RABBITMQ_URL}
 
   mail:
     host: ${MAIL_HOST}
